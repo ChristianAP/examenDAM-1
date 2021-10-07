@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/borde">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGRESAR MASCOTA"
+            android:textColor="#66092b"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Mascota:"
+            android:textSize="15sp"
+            android:textColor="#00667e"
+            />
+        <EditText
+            android:id="@+id/inputMascotaIns"
+            android:hint="Ingrese Nombre de Mascota"
+            android:paddingTop="10dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raza:"
+            android:textSize="15sp"
+            android:textColor="#00667e"
+            />
+        <EditText
+            android:id="@+id/inputRazaIns"
+            android:hint="Ingrese Raza de la Mascota"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Dueño:"
+            android:textSize="15sp"
+            android:textColor="#00667e"
+            />
+        <EditText
+            android:id="@+id/inputDueñoIns"
+            android:hint="Ingrese Nombre del Dueño"
+            android:paddingTop="10dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono del Dueño:"
+            android:textSize="15sp"
+            android:textColor="#00667e"
+            />
+        <EditText
+            android:id="@+id/inputTelefonoIns"
+            android:hint="Ingrese Teléfono del Dueño"
+            android:paddingTop="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btnIngresar"
+            android:text="GUARDAR CAMBIOS"
+            android:layout_marginTop="10dp"
+            android:layout_width="270sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00c362"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

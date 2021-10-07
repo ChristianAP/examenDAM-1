@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">examenDAM</string>
+    <string name="invalid_email">Ingrese un Email Válido</string>
+    <string name="invalid_password">Ingrese un password mayor de 6 dígitos</string>
+</resources>

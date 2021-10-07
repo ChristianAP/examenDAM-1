@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/caja_sup"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="#089aff"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cajaLogin"
+        android:layout_width="350dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/borde"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_marginTop="60dp"
+            android:text="Correo Electrónico: "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/txtuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Correo Electrónico"
+            android:inputType="textPersonName"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/password"
+            android:text="Contraseña: "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SESIÓN"
+            android:backgroundTint="#089aff"
+            />
+        <Button
+            android:id="@+id/btnScontraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Olvidaste tu contraseña?"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="342dp"
+        android:layout_height="129dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-433dp"
+        app:srcCompat="@drawable/icons8_salario_masculino_100" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="400dp"
+        android:background="#089aff"
+        android:gravity="end"
+        >
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:background="@null"
+            android:backgroundTint="#089aff"
+            app:icon="@drawable/icons8_a_adir_usuario_masculino_50" />
+    </LinearLayout>
+
+</LinearLayout>

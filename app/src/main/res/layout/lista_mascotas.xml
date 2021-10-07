@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblMascotaList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Mascota"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textColor="#ab3535"/>
+    <TextView
+        android:id="@+id/lblDueñoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Nombre del Dueño"
+        android:layout_below="@+id/lblMascotaList"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:textColor="#0a7c91"/>
+</RelativeLayout>
